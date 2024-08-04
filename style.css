@@ -1,0 +1,51 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(207, 235, 237);
+}
+    
+div{
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+
+}
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+
+#box1:hover{
+    background-color: red;
+}
+
+#box1{
+    
+   margin:10px;
+  
+   
+   
+}
+#box2:hover{
+    background-color: blue;
+}
+#box2{
+    text-align:center;
+    margin: 10px;
+    border-radius: 50%;
+}
+#box3:hover{
+    background-color: green;
+}
+#box3{
+    rotate: 45deg;
+    margin: 50px;
+}
